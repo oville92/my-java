@@ -27,4 +27,9 @@ public class AppTest {
 		assertEquals("Bye", App.f(20));
 	}
 
+	@Test
+	public void testInférieur() {
+		assertEquals("Hello", App.f(17));
+	}
+
 }
